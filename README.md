@@ -1,7 +1,9 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+
+Name : Harish R
+
+Register no :  212224230085
+
 
 
 
@@ -77,26 +79,92 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Programs for arithmetic  operations
 
-## Addition  of 8 bit ALP 
-
-
-
+## Addition  of 8 bit numbers ALP 
+```assembly
+MOV AL,88H
+MOV BL,65H
+ADD AL,BL
+HLT
+```
 ## Output  
- 
-## Subtraction   of 8 bit numbers  ALP 
- 
+ ![ADDEX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/9b3a7e31-db56-4c0e-9b59-43fe21ab0371)
+
+## Subtraction  of 8 bit numbers  ALP 
+```assembly
+MOV AL,84H
+MOV BL,63H
+SUB AL,BL
+HLT
+``` 
+## Output 
+![SUBEX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/fcb56b58-d90f-4cf2-850d-85c531d9862c)
+
+## Multiplication of 8 bit numbers  ALP
+```assembly
+MOV AL,75H
+MOV BL,32H
+MUL BL
+HLT
+```
 ## Output  
-## Multiplication alp 
- ## Output  
+![MULEX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/d5f842ca-8113-4380-9948-2dd4089cb605)
 
-
-## Division alp 
-
+## Division of 8 bit numbers  ALP
+```assembly
+MOV AL,68H
+MOV BL,18H
+DIV BL
+HLT
+```
 ## Output  
+![DIV EX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/b34c43fd-318d-4df8-995b-d4357456f886)
 
+## And of 8 bit numbers ALP
+```assembly
+MOV AL,33H
+MOV BL,44H
+AND AL,BL
+HLT
+```
+## Output
+![ANDEX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/137f8c67-17d9-4cc2-8437-349d50e0a404)
+
+## OR of 8 bit numbers ALP
+```assembly
+MOV AL,45H
+MOV BL,66H
+OR AL,BL
+HLT
+```
+## Output
+![OR EX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/d9fce991-bce0-4c58-a77c-2de3216f302d)
+
+## NOT of 8 bit number ALP
+```assembly
+MOV AL,65H
+NOT AL
+HLT
+```
+## Output
+![NOT EX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/a7efe90e-2100-4df5-8298-3516af3b7f65)
+
+## XOR of 8 bit number ALP
+```assembly
+MOV AL,66H
+MOV BL,77H
+XOR AL,BL
+HLT
+```
+
+## Output
+![XOREX](https://github.com/JananiSoundararajan/EXPERIMENT--01-ALP-FOR-8086/assets/119477549/838fcf0e-3db2-4d6c-a9b6-0607b839726d)
 
 ## Result :
- 
+
+The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
+
+
+
 
 
 
